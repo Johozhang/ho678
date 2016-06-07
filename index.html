@@ -28,6 +28,7 @@
 		}
 		.swiper-slide4 {
 			background: linear-gradient(135deg,#99ccff,#0066cc);
+			text-align: center;
 		}
 		.pagination {
 		  position: absolute;
@@ -103,6 +104,12 @@
 		.t1img {
 			width: 100%;
 		}
+		
+		#t3 p{
+			color: #102076;
+			text-indent: 2em;
+			font-size: 4rem;
+		}
 	</style>
 </head>
 <body>
@@ -134,6 +141,7 @@
 				<div id="t1" class="hello animated">
 					<h2><img src="img/laya.png" alt="" /></h2>
 					<br />
+					<p>从引擎说游戏</p>
 					<p>除了“页面仔”，我们还有游戏</p>
 					<br />
 					<p>⬇️点击下方进入⬇️</p>
@@ -145,12 +153,17 @@
 				</div>
 			</div>
 			<div class="swiper-slide swiper-slide3">
-				<div id="t2" class="hello animated">
+				<div id="t3" class="hello animated">
 				<h2>微信升级X5 Blink内核</h2>
-					
+					<p>4月20日消息，腾讯昨天发布了安卓版微信6.3.16更新，官方同时宣布最新版微信内置浏览器已全面升级至X5 Blink内核，这意味着其将具有更好的HTML5/CSS3支持，渲染能力也将获得增强。开发者可以在Web应用中充分利用HTML5新特性，实现众多此前只有在原生APP中才能实现的效果。</p>
 				</div>
 			</div>
-			<div class="swiper-slide swiper-slide4">4</div>
+			<div class="swiper-slide swiper-slide4">
+				<div id="t3" class="hello animated">
+				<a href="http://www.yisutui.com/"><img src="img/yst.png"/></a>
+				<p>了解h5游戏作为一种新型的营销方式，已逐渐应用在企业日常推广中。通过易速推，您只要选择游戏模板，替换游戏图片，设置抽奖或者微信红包等互动方式，充分调动参与性和分享传播，让你的用户动起来。</p>
+				</div>
+			</div>
 		</div>
 		<!-- <div class="pagination"></div> -->
 	</div>
@@ -173,24 +186,6 @@
 			}
 		}
 	});
-	
-	
-//		var mySwiper = new Swiper(".swiper-container",{
-//		speed:400, //控制速度，滑动时间
-//		loop:true,// 循环
-//		mode:"vertical",//控制模式，竖直
-//		onSlideChangeEnd:function() {
-//			var t2 = document.getElementById("t2");
-//			if(mySwiper.activeLoopIndex == 2) {
-//				t2.style.display = "block";
-//				t2.className = t2.className + "flash";
-//			}else {
-//				t2.style.display = "none";
-//				t2.className = "hello animated";
-//			}
-//		}
-//	});
-
 
 	var downArrow = document.getElementById("downArrow");
 	downArrow.addEventListener("click",function() {
